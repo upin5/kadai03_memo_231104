@@ -1,0 +1,74 @@
+/* フォント */
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url("https://fonts.googleapis.com/earlyaccess/nicomoji.css");
+@import url("https://fonts.googleapis.com/earlyaccess/nikukyu.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/* font-family: "NotoSans Japanese"; */
+/* font-family: "Nico Moji"; */
+/* font-family: "Nikukyu"; */
+
+html{
+    background-image: url('img/PAK52_chirabattatenbou_TP_V.jpg');
+}
+
+
+#tokuten {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+    font-family: 'Roboto','Nico Moji';
+    font-size: 20px;
+    
+}
+
+h1{
+   text-align: center;
+   font-family:'Roboto','Nico Moji' ; 
+   color: whitesmoke;
+
+}
+
+#han{
+    width: 300px;
+    height: 450px;
+}
+
+.majancontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.senseki{
+    display: flex;
+    justify-content: center;
+}
+
+.ma-buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+#han {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    background-color: #e0efff;
+    color: #333;
+}
+
+#han::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: #c0cfdf #fff;
+    box-shadow: -1px 1px 1px rgb(0 0 0 / 5%);
+    content: '';
+}

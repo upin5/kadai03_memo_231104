@@ -1,0 +1,136 @@
+/* フォント */
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url("https://fonts.googleapis.com/earlyaccess/nicomoji.css");
+@import url("https://fonts.googleapis.com/earlyaccess/nikukyu.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* font-family: "NotoSans Japanese"; */
+/* font-family: "Nico Moji"; */
+/* font-family: "Nikukyu"; */
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+#maintext{
+    width: 900px;
+    height: 300px;
+    font-family: 'Roboto','Nico Moji';
+    margin: 1%;
+    color: white;
+    background-color: #0288D1;
+    box-shadow: none;
+
+}
+
+.container_2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#maintext_2{
+    width: 800px;
+    height: 200px;
+    font-family: "Roboto", "Nico Moji";
+    margin: 1%;
+    background-color: whitesmoke;
+    color: teal;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+    margin-left:3%;
+    padding-left:10px ;
+    padding-right: 10px;
+  background-color:rgba(255,255,255,.8);
+  /* border-radius:.25em; */
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  /* box-sizing:border-box; */
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  text-align: center;
+  border-radius: 100vh;
+
+}
+
+h1 {
+  font-family:'Roboto','Nico Moji';
+  font-size: 20px;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.buttons{
+    margin-left: 3%;
+}
+
+#save{
+
+        border-bottom: 5px solid #9f000c;
+        background-color: rgb(248, 149, 149);
+        border-radius: 100vh;
+        /* top: calc(50% - .5em); */
+        /* right: 1rem; */
+        font-family: 'Roboto','Nico Moji';
+}
+
+#reset{
+    border-bottom: 5px solid #021c69;
+    background-color: rgb(149, 187, 248);
+    border-radius: 100vh;
+    /* top: calc(50% - .5em); */
+    /* right: 1rem; */
+    font-family: 'Roboto','Nico Moji';
+}
+
+#memory{
+    border-bottom: 5px solid #636a01;
+    background-color: rgb(246, 248, 149);
+    border-radius: 100vh;
+    /* top: calc(50% - .5em); */
+    /* right: 1rem; */
+    font-family: 'Roboto','Nico Moji';
+}
